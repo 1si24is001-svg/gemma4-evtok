@@ -1,0 +1,7 @@
+# Per-task budgets. The whole test set must finish within 12 hours (setup included),
+# so per-task time is kept moderate.
+evaluation:
+  timeout_seconds: 180
+  max_tool_calls: 40
+  max_time_minutes: 6
+  max_turns: 60

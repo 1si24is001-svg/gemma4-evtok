@@ -1,0 +1,97 @@
+instance_id,repo,fold,n_gold,method,budget,recall,recall_any,hit,file_hit,cost,n_nodes,components
+fastapi_14791,fastapi/fastapi,0,0,BM25 top-k,2000,nan,nan,nan,0.0,1999,8,5
+fastapi_14791,fastapi/fastapi,0,0,BM25 top-k,4000,nan,nan,nan,1.0,3993,14,8
+fastapi_14791,fastapi/fastapi,0,0,BM25 top-k,8000,nan,nan,nan,1.0,7989,13,7
+fastapi_14791,fastapi/fastapi,0,0,BM25 top-k,16000,nan,nan,nan,1.0,15999,10,9
+fastapi_15745,fastapi/fastapi,1,23,BM25 top-k,2000,0.043478260869565216,0.043478260869565216,1.0,1.0,1997,4,4
+fastapi_15745,fastapi/fastapi,1,23,BM25 top-k,4000,0.08695652173913043,0.08695652173913043,1.0,1.0,3999,4,4
+fastapi_15745,fastapi/fastapi,1,23,BM25 top-k,8000,0.08695652173913043,0.08695652173913043,1.0,1.0,7988,8,8
+fastapi_15745,fastapi/fastapi,1,23,BM25 top-k,16000,0.08695652173913043,0.08695652173913043,1.0,1.0,16000,10,9
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (anchor query),2000,nan,nan,nan,0.0,2000,12,11
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (anchor query),4000,nan,nan,nan,0.0,3991,21,15
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (anchor query),8000,nan,nan,nan,0.0,7988,37,29
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (anchor query),16000,nan,nan,nan,1.0,15998,68,37
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (anchor query),2000,0.08695652173913043,0.08695652173913043,1.0,1.0,1993,10,8
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (anchor query),4000,0.08695652173913043,0.08695652173913043,1.0,1.0,3999,9,8
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (anchor query),8000,0.21739130434782608,0.21739130434782608,1.0,1.0,8000,19,10
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (anchor query),16000,0.391304347826087,0.391304347826087,1.0,1.0,16000,41,18
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (BM25-centroid query),2000,nan,nan,nan,0.0,1987,8,6
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (BM25-centroid query),4000,nan,nan,nan,0.0,3998,8,7
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (BM25-centroid query),8000,nan,nan,nan,0.0,7996,9,8
+fastapi_14791,fastapi/fastapi,0,0,Dense top-k (BM25-centroid query),16000,nan,nan,nan,0.0,15987,12,10
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (BM25-centroid query),2000,0.08695652173913043,0.08695652173913043,1.0,1.0,1992,12,11
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (BM25-centroid query),4000,0.08695652173913043,0.08695652173913043,1.0,1.0,3991,22,18
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (BM25-centroid query),8000,0.17391304347826086,0.17391304347826086,1.0,1.0,8000,29,25
+fastapi_15745,fastapi/fastapi,1,23,Dense top-k (BM25-centroid query),16000,0.43478260869565216,0.43478260869565216,1.0,1.0,15997,52,30
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k,2000,nan,nan,nan,0.0,1995,6,6
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k,4000,nan,nan,nan,1.0,3986,10,8
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k,8000,nan,nan,nan,1.0,8000,10,9
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k,16000,nan,nan,nan,1.0,15996,8,8
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k,2000,0.043478260869565216,0.043478260869565216,1.0,1.0,1997,4,4
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k,4000,0.08695652173913043,0.08695652173913043,1.0,1.0,3999,4,4
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k,8000,0.08695652173913043,0.08695652173913043,1.0,1.0,7988,8,8
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k,16000,0.08695652173913043,0.08695652173913043,1.0,1.0,16000,10,9
+fastapi_14791,fastapi/fastapi,0,0,Hybrid + tiers (no graph),2000,nan,nan,nan,1.0,1999,43,37
+fastapi_14791,fastapi/fastapi,0,0,Hybrid + tiers (no graph),4000,nan,nan,nan,1.0,3995,87,79
+fastapi_14791,fastapi/fastapi,0,0,Hybrid + tiers (no graph),8000,nan,nan,nan,1.0,7999,166,142
+fastapi_14791,fastapi/fastapi,0,0,Hybrid + tiers (no graph),16000,nan,nan,nan,1.0,15997,236,190
+fastapi_15745,fastapi/fastapi,1,23,Hybrid + tiers (no graph),2000,0.17391304347826086,0.17391304347826086,1.0,1.0,2000,46,44
+fastapi_15745,fastapi/fastapi,1,23,Hybrid + tiers (no graph),4000,0.21739130434782608,0.21739130434782608,1.0,1.0,4000,71,61
+fastapi_15745,fastapi/fastapi,1,23,Hybrid + tiers (no graph),8000,0.2608695652173913,0.2608695652173913,1.0,1.0,8000,113,89
+fastapi_15745,fastapi/fastapi,1,23,Hybrid + tiers (no graph),16000,0.30434782608695654,0.30434782608695654,1.0,1.0,15996,182,133
+fastapi_14791,fastapi/fastapi,0,0,Graph expansion (full only),2000,nan,nan,nan,1.0,1989,5,3
+fastapi_14791,fastapi/fastapi,0,0,Graph expansion (full only),4000,nan,nan,nan,1.0,3975,8,4
+fastapi_14791,fastapi/fastapi,0,0,Graph expansion (full only),8000,nan,nan,nan,1.0,7985,8,5
+fastapi_14791,fastapi/fastapi,0,0,Graph expansion (full only),16000,nan,nan,nan,1.0,15998,8,7
+fastapi_15745,fastapi/fastapi,1,23,Graph expansion (full only),2000,0.043478260869565216,0.043478260869565216,1.0,1.0,1991,4,4
+fastapi_15745,fastapi/fastapi,1,23,Graph expansion (full only),4000,0.043478260869565216,0.043478260869565216,1.0,1.0,3982,4,4
+fastapi_15745,fastapi/fastapi,1,23,Graph expansion (full only),8000,0.17391304347826086,0.17391304347826086,1.0,1.0,7998,10,10
+fastapi_15745,fastapi/fastapi,1,23,Graph expansion (full only),16000,0.17391304347826086,0.17391304347826086,1.0,1.0,15987,11,10
+fastapi_14791,fastapi/fastapi,0,0,Connected (full only),2000,nan,nan,nan,0.0,1870,9,3
+fastapi_14791,fastapi/fastapi,0,0,Connected (full only),4000,nan,nan,nan,1.0,2930,10,2
+fastapi_14791,fastapi/fastapi,0,0,Connected (full only),8000,nan,nan,nan,1.0,7847,17,2
+fastapi_14791,fastapi/fastapi,0,0,Connected (full only),16000,nan,nan,nan,1.0,15576,26,1
+fastapi_15745,fastapi/fastapi,1,23,Connected (full only),2000,0.0,0.0,0.0,1.0,1677,3,2
+fastapi_15745,fastapi/fastapi,1,23,Connected (full only),4000,0.0,0.0,0.0,1.0,3653,5,3
+fastapi_15745,fastapi/fastapi,1,23,Connected (full only),8000,0.08695652173913043,0.08695652173913043,1.0,1.0,5454,7,3
+fastapi_15745,fastapi/fastapi,1,23,Connected (full only),16000,0.17391304347826086,0.17391304347826086,1.0,1.0,11873,11,3
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT),2000,nan,nan,nan,0.0,1990,17,4
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT),4000,nan,nan,nan,1.0,3992,19,3
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT),8000,nan,nan,nan,1.0,7998,24,2
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT),16000,nan,nan,nan,1.0,15997,36,1
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT),2000,0.0,0.043478260869565216,0.0,1.0,1996,11,3
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT),4000,0.17391304347826086,0.21739130434782608,1.0,1.0,3994,15,3
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT),8000,0.21739130434782608,0.2608695652173913,1.0,1.0,7997,25,2
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT),16000,0.30434782608695654,0.34782608695652173,1.0,1.0,15099,29,2
+fastapi_14791,fastapi/fastapi,0,0,Random connected (control),2000,nan,nan,nan,0.3333333333333333,1998.3333333333333,18.0,2.6666666666666665
+fastapi_14791,fastapi/fastapi,0,0,Random connected (control),4000,nan,nan,nan,0.3333333333333333,3987.6666666666665,17.666666666666668,2.6666666666666665
+fastapi_14791,fastapi/fastapi,0,0,Random connected (control),8000,nan,nan,nan,0.0,7990.333333333333,12.0,2.3333333333333335
+fastapi_14791,fastapi/fastapi,0,0,Random connected (control),16000,nan,nan,nan,0.6666666666666666,15993.0,24.0,2.6666666666666665
+fastapi_15745,fastapi/fastapi,1,23,Random connected (control),2000,0.0,0.0,0.0,1.0,1703.0,4.0,2.0
+fastapi_15745,fastapi/fastapi,1,23,Random connected (control),4000,0.028985507246376812,0.028985507246376812,0.6666666666666666,1.0,3453.6666666666665,6.0,1.6666666666666667
+fastapi_15745,fastapi/fastapi,1,23,Random connected (control),8000,0.057971014492753624,0.057971014492753624,1.0,1.0,7941.333333333333,10.333333333333334,2.3333333333333335
+fastapi_15745,fastapi/fastapi,1,23,Random connected (control),16000,0.07246376811594203,0.07246376811594203,1.0,1.0,15942.666666666666,13.0,2.6666666666666665
+fastapi_14791,fastapi/fastapi,0,0,Oracle (gold first),2000,nan,nan,nan,0.0,1995,6,6
+fastapi_14791,fastapi/fastapi,0,0,Oracle (gold first),4000,nan,nan,nan,1.0,3986,10,8
+fastapi_14791,fastapi/fastapi,0,0,Oracle (gold first),8000,nan,nan,nan,1.0,8000,10,9
+fastapi_14791,fastapi/fastapi,0,0,Oracle (gold first),16000,nan,nan,nan,1.0,15996,8,8
+fastapi_15745,fastapi/fastapi,1,23,Oracle (gold first),2000,0.43478260869565216,0.43478260869565216,1.0,1.0,1975,13,12
+fastapi_15745,fastapi/fastapi,1,23,Oracle (gold first),4000,0.6086956521739131,0.6521739130434783,1.0,1.0,3869,17,14
+fastapi_15745,fastapi/fastapi,1,23,Oracle (gold first),8000,0.782608695652174,0.8260869565217391,1.0,1.0,7957,25,20
+fastapi_15745,fastapi/fastapi,1,23,Oracle (gold first),16000,0.9130434782608695,0.9130434782608695,1.0,1.0,15994,27,21
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k [default],2000,nan,nan,nan,0.0,1995,6,6
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k [default],4000,nan,nan,nan,1.0,3986,10,8
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k [default],8000,nan,nan,nan,1.0,8000,10,9
+fastapi_14791,fastapi/fastapi,0,0,Hybrid top-k [default],16000,nan,nan,nan,1.0,15996,8,8
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k [default],2000,0.17391304347826086,0.17391304347826086,1.0,1.0,1999,7,6
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k [default],4000,0.13043478260869565,0.13043478260869565,1.0,1.0,4000,8,6
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k [default],8000,0.17391304347826086,0.17391304347826086,1.0,1.0,7991,10,7
+fastapi_15745,fastapi/fastapi,1,23,Hybrid top-k [default],16000,0.30434782608695654,0.30434782608695654,1.0,1.0,15999,14,12
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT) [default],2000,nan,nan,nan,0.0,1991,63,1
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT) [default],4000,nan,nan,nan,0.0,4000,105,1
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT) [default],8000,nan,nan,nan,0.0,7997,119,1
+fastapi_14791,fastapi/fastapi,0,0,Connected + tiers (EpT) [default],16000,nan,nan,nan,1.0,15980,121,1
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT) [default],2000,0.08695652173913043,0.5217391304347826,1.0,1.0,2000,43,2
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT) [default],4000,0.17391304347826086,0.6521739130434783,1.0,1.0,3999,80,1
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT) [default],8000,0.17391304347826086,0.6521739130434783,1.0,1.0,7981,83,1
+fastapi_15745,fastapi/fastapi,1,23,Connected + tiers (EpT) [default],16000,0.30434782608695654,0.6521739130434783,1.0,1.0,15889,83,1

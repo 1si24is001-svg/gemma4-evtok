@@ -1,0 +1,64 @@
+{
+ "choices": {
+  "BM25 top-k": [
+   "flat|wd0.0_wa0.0_anchor",
+   "flat|wd0.0_wa0.0_anchor",
+   "flat|wd0.0_wa0.0_anchor",
+   "flat|wd0.0_wa0.0_anchor",
+   "flat|wd0.0_wa0.0_anchor"
+  ],
+  "Dense top-k (anchor query)": [
+   "flat|dense_anchor",
+   "flat|dense_anchor",
+   "flat|dense_anchor",
+   "flat|dense_anchor",
+   "flat|dense_anchor"
+  ],
+  "Dense top-k (BM25-centroid query)": [
+   "flat|dense_bm",
+   "flat|dense_bm",
+   "flat|dense_bm",
+   "flat|dense_bm",
+   "flat|dense_bm"
+  ],
+  "Hybrid top-k": [
+   "flat|wd0.5_wa1.0_anchor",
+   "flat|wd0.0_wa0.0_anchor",
+   "flat|wd0.5_wa1.0_anchor",
+   "flat|wd0.5_wa1.0_anchor",
+   "flat|wd0.5_wa1.0_anchor"
+  ],
+  "Hybrid + tiers (no graph)": [
+   "flatT|wd0.0_wa1.0_anchor|rho0.5_a",
+   "flatT|wd0.0_wa0.0_anchor|rho0.5_a",
+   "flatT|wd0.0_wa1.0_anchor|rho0.5_a",
+   "flatT|wd0.0_wa1.0_anchor|rho0.5_a",
+   "flatT|wd0.0_wa1.0_anchor|rho0.5_a"
+  ],
+  "Graph expansion (full only)": [
+   "gx|wd0.5_wa1.0_anchor|b0.0_h1_k10",
+   "gx|wd0.0_wa0.0_anchor|b0.0_h1_k10",
+   "gx|wd0.5_wa1.0_anchor|b0.0_h1_k10",
+   "gx|wd0.5_wa1.0_anchor|b0.0_h1_k10",
+   "gx|wd0.5_wa1.0_anchor|b0.0_h1_k10"
+  ],
+  "Connected (full only)": [
+   "conn|wd0.5_wa1.0_anchor|b0.0_h1_k10",
+   "conn|wd0.0_wa0.0_anchor|b0.0_h1_k10",
+   "conn|wd0.5_wa1.0_anchor|b0.0_h1_k10",
+   "conn|wd0.5_wa1.0_anchor|b0.0_h1_k10",
+   "conn|wd0.5_wa1.0_anchor|b0.0_h1_k10"
+  ],
+  "Connected + tiers (EpT)": [
+   "connT|wd0.5_wa1.0_anchor|b0.0_h1_k10_rho0.5_a",
+   "connT|wd0.0_wa0.0_anchor|b0.0_h1_k10_rho0.5_a",
+   "connT|wd0.5_wa1.0_anchor|b0.0_h1_k10_rho0.5_a",
+   "connT|wd0.5_wa1.0_anchor|b0.0_h1_k10_rho0.5_a",
+   "connT|wd0.5_wa1.0_anchor|b0.0_h1_k10_rho0.5_a"
+  ]
+ },
+ "folds": {
+  "fastapi_14791": 0,
+  "fastapi_15745": 1
+ }
+}
